@@ -1,0 +1,10 @@
+<!ENTITY prefwindow.title "Ustawienia OmniLing">
+<!ENTITY enableSelect.label "Tłumacz jeśli zaznaczono tekst">
+<!ENTITY enableSelect.accesskey "s">
+<!ENTITY enableDoubleClick.label "Tłumacz po podwójnym kliknięciu w wyraz">
+<!ENTITY enableDoubleClick.accesskey "d">
+<!ENTITY enableCtrlHover.label "Tłumacz kiedy słowo znajduje się pod kursorem i naciśnięty jest CTRL">
+<!ENTITY enableCtrlHover.accesskey "c">
+<!ENTITY responseSectionsNum.label "Ile maksymalnie definicji wyświetlać dla danego wyrazu">
+<!ENTITY responseSectionsNum.accesskey "m">
+<!ENTITY responseSectionsNum.unlimited "Wszystkie">

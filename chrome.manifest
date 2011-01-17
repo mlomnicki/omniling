@@ -1,5 +1,6 @@
 content   lingpl                 chrome/content/
 skin      lingpl   classic/1.0   chrome/skin/
 locale    lingpl   en-US         chrome/locale/en-US/
+locale    lingpl   pl-PL         chrome/locale/pl-PL/
 
 overlay   chrome://browser/content/browser.xul   chrome://lingpl/content/lingpl.xul
