@@ -1,0 +1,21 @@
+= OmniLing - Ling.pl addon for Firefox
+
+This addon in build around click-and-translate idea. 
+Point a word and double click and it will be instantly translated. It have never
+been faster! 
+
+You can also perform a translation by:
+* pressing CTRL and pointing a word (good for links)
+* selecting word(s) (you must enable this first in addon properties)
+
+== Installation 
+
+Go to https://addons.mozilla.org/pl/firefox/addon/lingpl-dictionary/
+
+== Credits
+Addon is based on Zen Li code. 
+https://addons.mozilla.org/pl/firefox/addon/google-dictionary-and-google-t/
+
+== License
+This plugin is copyright 2011 by Michał Łomnicki and is released
+under the MPL license.

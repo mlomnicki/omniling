@@ -1,0 +1,9 @@
+<!ENTITY prefwindow.title "OmniLing preferences">
+<!ENTITY enableSelect.label "Translate on selection">
+<!ENTITY enableSelect.accesskey "s">
+<!ENTITY enableDoubleClick.label "Translate on double click">
+<!ENTITY enableDoubleClick.accesskey "d">
+<!ENTITY enableCtrlHover.label "Translate when word is under cursor and CTRL is pressed">
+<!ENTITY enableCtrlHover.accesskey "c">
+<!ENTITY responseSectionsNum.label "How many definitions to display">
+<!ENTITY responseSectionsNum.accesskey "m">

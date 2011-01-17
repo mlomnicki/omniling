@@ -1,0 +1,30 @@
+a { color: blue; }
+
+.popup
+{
+    background-color: #FFFFCC;
+    border: 2px solid #FF9900;
+    max-width: 298px;
+    color: black;
+    font-size: 11px;
+}
+
+#lingPlPopupContent {
+    margin: 5px;
+}
+
+#links {
+    margin: 5px;
+    border-top: 1px dotted #cacaca;
+}
+
+#links .author-link {
+    float: right;
+    text-align: right;
+    margin-left: 10px;
+}
+
+#links .dictionary-link {
+    float: left;
+    text-align: left;
+}
