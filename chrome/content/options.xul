@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
 <!DOCTYPE prefwindow SYSTEM "chrome://lingpl/locale/options.dtd">
-<prefwindow id="lingpl-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
-  <prefpane id="panel">
-    <preferences>
-      <preference name="extensions.lingpl.enableSelect" type="bool"/>
-      <preference name="extensions.lingpl.enableDoubleClick" type="bool"/>
-      <preference name="extensions.lingpl.enableCtrlHover" type="bool"/>
-      <preference name="extensions.lingpl.responseSectionsNum" type="int"/>
-    </preferences>
-    <checkbox preference="enableSelect" label="&enableSelect.label;" accesskey="&enableSelect.accesskey;"/>
-    <checkbox preference="enableDoubleClick" label="&enableDoubleClick.label;" accesskey="&enableDoubleClick.accesskey;"/>
-    <checkbox preference="enableCtrlHover" label="&enableCtrlHover.label;" accesskey="&enableCtrlHover.accesskey;"/>
-    <label accesskey="&responseSectionsNum.accesskey;" control="responseSectionsNum">&responseSectionsNum.label;</label><textbox preference="responseSectionsNum"/>
-  </prefpane>
+<prefwindow id="lingpl-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;" 
+    buttons="accept, cancel" 
+    ondialogaccept="lingpl.options.notifyBrowser();"
+    ondialogcancel="lingpl.options.notifyBrowser();">
+    <script src="lingpl.js" />
+    <script src="utils.js" />
+    <script src="options.js" />
+    <prefpane id="panel">
+        <preferences>
+            <preference id="enableSelect" name="extensions.lingpl.enableSelect" type="bool"/>
+            <preference id="enableDoubleClick" name="extensions.lingpl.enableDoubleClick" type="bool"/>
+            <preference id="enableCtrlHover" name="extensions.lingpl.enableCtrlHover" type="bool"/>
+            <preference id="responseSectionsNum" name="extensions.lingpl.responseSectionsNum" type="int"/>
+        </preferences>
+        <checkbox id="enableSelectChb" preference="enableSelect" label="&enableSelect.label;" accesskey="&enableSelect.accesskey;"/>
+        <checkbox id="enableDoubleClickChb" preference="enableDoubleClick" label="&enableDoubleClick.label;" accesskey="&enableDoubleClick.accesskey;"/>
+        <checkbox id="enableCtrlHoverChb" preference="enableCtrlHover" label="&enableCtrlHover.label;" accesskey="&enableCtrlHover.accesskey;"/>
+        <hbox align="center">
+            <label accesskey="&responseSectionsNum.accesskey;" control="responseSectionsNum">&responseSectionsNum.label;</label>
+            <menulist id="responseSectionsNum" preference="responseSectionsNum">
+                <menupopup>
+                    <menuitem value="1" label="1" />
+                    <menuitem value="2" label="2" />
+                    <menuitem value="3" label="3" />
+                    <menuitem value="4" label="4" />
+                    <menuitem value="5" label="5" />
+                    <menuitem value="0" label="&responseSectionsNum.unlimited;" />
+                </menupopup>
+            </menulist>
+        </hbox>
+    </prefpane>
 </prefwindow>

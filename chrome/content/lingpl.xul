@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://lingpl/skin/lingpl.css" type="text/css"?>
-<!DOCTYPE overlay SYSTEM "chrome://lingpl/locale/overlay.dtd">
+<!DOCTYPE overlay SYSTEM "chrome://lingpl/locale/lingpl.dtd">
 <overlay 
     id="lingpl-overlay" 
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
     xmlns:html="http://www.w3.org/1999/xhtml">
-    <script src="debug.js"/>
+    <script src="lingpl.js" />
     <script src="utils.js" />
-    <script src="lingpl.js"/>
+    <script src="options.js" />
 
     <stringbundleset id="stringbundleset">
-        <stringbundle id="lingpl-strings" src="chrome://lingpl/locale/overlay.properties"/>
+        <stringbundle id="lingpl-strings" src="chrome://lingpl/locale/lingpl.properties"/>
     </stringbundleset>
 
     <popupset id="mainPopupSet">
