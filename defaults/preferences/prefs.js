@@ -1,3 +1,4 @@
+pref("extensions.lingpl.debug", false);
 pref("extensions.lingpl.enableSelect", false);
 pref("extensions.lingpl.enableDoubleClick", true);
 pref("extensions.lingpl.enableCtrlHover", true);

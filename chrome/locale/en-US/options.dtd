@@ -7,3 +7,4 @@
 <!ENTITY enableCtrlHover.accesskey "c">
 <!ENTITY responseSectionsNum.label "How many definitions to display">
 <!ENTITY responseSectionsNum.accesskey "m">
+<!ENTITY responseSectionsNum.unlimited "All definitions">
